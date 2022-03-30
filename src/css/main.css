@@ -1,0 +1,22 @@
+.title {
+    font-size: 3rem;
+    font-family: 'Arial';
+    line-height: 1.4;
+    color: green;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+.item {
+    font-size: 1.125rem;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 700px) {
+    .title {
+        font-size: 2rem;
+    }
+}
